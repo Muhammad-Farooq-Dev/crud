@@ -1,0 +1,14 @@
+
+
+<div class="jumbotron">
+  <h1 class="display-4">
+    <%= render @user %>
+  </h1>
+</div>
+
+<div>
+  <%= link_to "Edit this user", edit_user_path(@user), class: 'btn btn-secondary' %>
+  <%= link_to "Back to users", users_path, class: 'btn btn-secondary' %>
+
+  <%= button_to "Destroy this user", @user, method: :delete , class: 'btn btn-danger'%>
+</div>
