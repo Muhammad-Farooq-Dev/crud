@@ -3,6 +3,7 @@
 <%= link_to "New user", new_user_path, class: 'btn btn-secondary' %>
 
 <h1>Users</h1>
+  <%== pagy_nav(@pagy) %>
 
 <table class="table table-light table-hover table-bordered">
   <thead class="table-dark">

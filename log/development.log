@@ -14453,3 +14453,3008 @@ Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 3948)
   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" ORDER BY "books"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
   [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."user_id" = ? LIMIT ?[0m  [["user_id", 1106], ["LIMIT", 1]]
+Started GET "/users" for ::1 at 2022-05-18 14:32:07 +0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 78.5ms | Allocations: 113228)
+  Rendered users/_header.html.erb (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 113.8ms | Allocations: 147418)
+Completed 200 OK in 122ms (Views: 109.2ms | ActiveRecord: 6.3ms | Allocations: 154417)
+
+
+Started GET "/users" for ::1 at 2022-05-18 14:40:16 +0500
+  
+NameError (uninitialized constant Pagy):
+  
+app/helpers/application_helper.rb:2:in `<main>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:40:48 +0500
+  
+NameError (uninitialized constant ApplicationHelper::Pagy):
+  
+app/helpers/application_helper.rb:5:in `<module:ApplicationHelper>'
+app/helpers/application_helper.rb:4:in `<main>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:45:59 +0500
+  
+NameError (uninitialized constant ApplicationHelper::Pagy):
+  
+app/helpers/application_helper.rb:5:in `<module:ApplicationHelper>'
+app/helpers/application_helper.rb:4:in `<main>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:00 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:01 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:02 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:02 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:02 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:02 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:02 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:03 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:03 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:03 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:03 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:46:03 +0500
+  
+NameError (uninitialized constant ApplicationController::Pagy):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/users_controller.rb:4:in `<main>'
+Started GET "/users" for ::1 at 2022-05-18 14:48:26 +0500
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 8865)
+  Rendered users/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 43144)
+Completed 200 OK in 48ms (Views: 41.1ms | ActiveRecord: 0.5ms | Allocations: 50976)
+
+
+Started GET "/users?page=2" for ::1 at 2022-05-18 14:48:32 +0500
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 30]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3634)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5989)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 6755)
+
+
+Started GET "/users?page=2" for ::1 at 2022-05-18 14:48:57 +0500
+Processing by UsersController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 30]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3626)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 5942)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 6704)
+
+
+Started GET "/users" for ::1 at 2022-05-18 14:49:05 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 3620)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 5940)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 6688)
+
+
+Started GET "/users" for ::1 at 2022-05-18 14:49:16 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 41370)
+Completed 200 OK in 43ms (Views: 35.7ms | ActiveRecord: 0.5ms | Allocations: 49203)
+
+
+Started GET "/users" for ::1 at 2022-05-18 17:30:47 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 41377)
+Completed 200 OK in 39ms (Views: 33.1ms | ActiveRecord: 0.5ms | Allocations: 49209)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:30:52 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 895.2ms | Allocations: 1013237)
+  Rendered users/new.html.erb within layouts/application (Duration: 896.5ms | Allocations: 1013543)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 898.1ms | Allocations: 1015749)
+Completed 200 OK in 899ms (Views: 898.4ms | ActiveRecord: 0.0ms | Allocations: 1016090)
+
+
+Started GET "/users" for ::1 at 2022-05-18 17:30:58 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3997)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4762)
+
+
+Started GET "/users" for ::1 at 2022-05-18 17:39:56 +0500
+Processing by UsersController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 3019)
+  Rendered users/_header.html.erb (Duration: 0.3ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 17084)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 20503)
+
+
+Started GET "/users" for ::1 at 2022-05-18 17:39:57 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 4002)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 4758)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:39:58 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 985)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1286)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3474)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3795)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:40:25 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Ahmad", "last_name"=>"Bhatti", "email"=>"ahmad.bhatti@devsinc.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ahmad"], ["last_name", "Bhatti"], ["email", "ahmad.bhatti@devsinc.com"], ["created_at", "2022-05-18 12:40:25.366003"], ["updated_at", "2022-05-18 12:40:25.366003"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 77f22ef5-f8bd-4995-83d0-2b986fc42d85) to Async(default) with arguments: "UserMailer", "welcome_mail", "deliver_now", {:params=>{:user=>#<GlobalID:0x00007f83d027b9a0 @uri=#<URI::GID gid://crud-app/User/1107>>}, :args=>[]}
+Redirected to http://localhost:3000/users.1107
+Completed 302 Found in 25ms (ActiveRecord: 3.8ms | Allocations: 33096)
+
+
+Started GET "/users.1107" for ::1 at 2022-05-18 17:40:25 +0500
+[ActiveJob] [ActionMailer::MailDeliveryJob] [77f22ef5-f8bd-4995-83d0-2b986fc42d85]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1107], ["LIMIT", 1]]
+[ActiveJob] [ActionMailer::MailDeliveryJob] [77f22ef5-f8bd-4995-83d0-2b986fc42d85] Performing ActionMailer::MailDeliveryJob (Job ID: 77f22ef5-f8bd-4995-83d0-2b986fc42d85) from Async(default) enqueued at 2022-05-18T12:40:25Z with arguments: "UserMailer", "welcome_mail", "deliver_now", {:params=>{:user=>#<GlobalID:0x00007f838407b070 @uri=#<URI::GID gid://crud-app/User/1107>>}, :args=>[]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [77f22ef5-f8bd-4995-83d0-2b986fc42d85] UserMailer#welcome_mail: processed outbound mail in 0.1ms
+[ActiveJob] [ActionMailer::MailDeliveryJob] [77f22ef5-f8bd-4995-83d0-2b986fc42d85] Performed ActionMailer::MailDeliveryJob (Job ID: 77f22ef5-f8bd-4995-83d0-2b986fc42d85) from Async(default) in 4.05ms
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1665)
+  Rendered users/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 4264)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 5121)
+
+
+Started GET "/users.1107" for ::1 at 2022-05-18 17:40:25 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.2ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 4011)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 4776)
+
+
+Started GET "/users.1107" for ::1 at 2022-05-18 17:41:03 +0500
+Processing by UsersController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2781)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 16215)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.6ms | Allocations: 19570)
+
+
+Started GET "/users.1107" for ::1 at 2022-05-18 17:41:04 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1662)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3990)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4771)
+
+
+Started GET "/users.1107?page=2" for ::1 at 2022-05-18 17:41:07 +0500
+Processing by UsersController#index as */*
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 10]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1667)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3997)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4759)
+
+
+Started GET "/users.1107?page=3" for ::1 at 2022-05-18 17:41:07 +0500
+Processing by UsersController#index as */*
+  Parameters: {"page"=>"3"}
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 20]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1671)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3997)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4760)
+
+
+Started GET "/users.1107?page=110" for ::1 at 2022-05-18 17:41:09 +0500
+Processing by UsersController#index as */*
+  Parameters: {"page"=>"110"}
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 1090]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1662)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4004)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 4767)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:41:12 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 611)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 704)
+  Rendered users/_header.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2895)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3164)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:41:34 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"ahmad", "last_name"=>"Bhatti", "email"=>"admad.bhatti@devsinc.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "ahmad"], ["last_name", "Bhatti"], ["email", "admad.bhatti@devsinc.com"], ["created_at", "2022-05-18 12:41:34.735980"], ["updated_at", "2022-05-18 12:41:34.735980"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1108
+Completed 302 Found in 11ms (ActiveRecord: 4.0ms | Allocations: 9274)
+
+
+Started GET "/users.1108" for ::1 at 2022-05-18 17:41:34 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 4079)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4843)
+
+
+Started GET "/users.1108" for ::1 at 2022-05-18 17:41:34 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3983)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4747)
+
+
+Started GET "/users.1108" for ::1 at 2022-05-18 17:43:04 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2034)
+  Rendered users/_header.html.erb (Duration: 0.3ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4907)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 6436)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:43:05 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 962)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1262)
+  Rendered users/_header.html.erb (Duration: 0.2ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3450)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3772)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:43:19 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Ahmad", "last_name"=>"Bhatti", "email"=>"ahmad.bhatti@devsinc.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ahmad"], ["last_name", "Bhatti"], ["email", "ahmad.bhatti@devsinc.com"], ["created_at", "2022-05-18 12:43:19.127801"], ["updated_at", "2022-05-18 12:43:19.127801"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.4ms
+Redirected to http://localhost:3000/users.1109
+Completed 302 Found in 8ms (ActiveRecord: 4.0ms | Allocations: 2649)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:43:19 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4259)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 5024)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:43:19 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4009)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 4774)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:52 +0500
+Processing by UsersController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3158)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 17219)
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 20964)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:52 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 4006)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4771)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:53 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3983)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 4747)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:53 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3991)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 4755)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:53 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3997)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.1ms | Allocations: 4761)
+
+
+Started GET "/users.1109" for ::1 at 2022-05-18 17:45:53 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3985)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4749)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:45:54 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 977)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1278)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3466)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 3787)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:46:07 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Ahmad", "last_name"=>"Bhatti", "email"=>"admad.bhatti@devsinc.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ahmad"], ["last_name", "Bhatti"], ["email", "admad.bhatti@devsinc.com"], ["created_at", "2022-05-18 12:46:07.175541"], ["updated_at", "2022-05-18 12:46:07.175541"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1110
+Completed 302 Found in 9ms (ActiveRecord: 3.7ms | Allocations: 5234)
+
+
+Started GET "/users.1110" for ::1 at 2022-05-18 17:46:07 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4264)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms | Allocations: 5029)
+
+
+Started GET "/users.1110" for ::1 at 2022-05-18 17:46:07 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4021)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 4787)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:46:13 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 606)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 699)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2879)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3148)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:46:29 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"umer", "last_name"=>"butt", "email"=>"umer.butt@devsinc.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "umer"], ["last_name", "butt"], ["email", "umer.butt@devsinc.com"], ["created_at", "2022-05-18 12:46:29.360237"], ["updated_at", "2022-05-18 12:46:29.360237"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1111
+Completed 302 Found in 11ms (ActiveRecord: 4.5ms | Allocations: 2672)
+
+
+Started GET "/users.1111" for ::1 at 2022-05-18 17:46:29 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 4062)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4826)
+
+
+Started GET "/users.1111" for ::1 at 2022-05-18 17:46:29 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3999)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 4763)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:47:54 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 604)
+  Rendered users/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 697)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2873)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 3142)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:48:16 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"farooq", "last_name"=>"umar", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "umar"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 12:48:16.916390"], ["updated_at", "2022-05-18 12:48:16.916390"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1112
+Completed 302 Found in 6ms (ActiveRecord: 3.6ms | Allocations: 2649)
+
+
+Started GET "/users.1112" for ::1 at 2022-05-18 17:48:16 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4070)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 4834)
+
+
+Started GET "/users.1112" for ::1 at 2022-05-18 17:48:16 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3991)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 4755)
+
+
+Started GET "/users" for ::1 at 2022-05-18 17:58:48 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 41310)
+Completed 200 OK in 32ms (Views: 26.2ms | ActiveRecord: 0.5ms | Allocations: 49144)
+
+
+Started GET "/users/new" for ::1 at 2022-05-18 17:58:50 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 138.9ms | Allocations: 345704)
+  Rendered users/new.html.erb within layouts/application (Duration: 139.6ms | Allocations: 346010)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 142.3ms | Allocations: 348216)
+Completed 200 OK in 143ms (Views: 142.7ms | ActiveRecord: 0.0ms | Allocations: 348557)
+
+
+Started POST "/users" for ::1 at 2022-05-18 17:58:58 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 12:58:58.380361"], ["updated_at", "2022-05-18 12:58:58.380361"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1113
+Completed 302 Found in 17ms (ActiveRecord: 4.0ms | Allocations: 29450)
+
+
+Started GET "/users.1113" for ::1 at 2022-05-18 17:58:58 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4278)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 5140)
+
+
+Started GET "/users.1113" for ::1 at 2022-05-18 17:58:58 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 4025)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 4790)
+
+
+Started GET "/users.1113?page=111" for ::1 at 2022-05-18 18:02:10 +0500
+Processing by UsersController#index as */*
+  Parameters: {"page"=>"111"}
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 1100]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1274)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3600)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 4362)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:05:52.707849"], ["updated_at", "2022-05-18 13:05:52.707849"]]
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:15:36.407851"], ["updated_at", "2022-05-18 13:15:36.407851"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:16:11.950947"], ["updated_at", "2022-05-18 13:16:11.950947"]]
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:16:13.105570"], ["updated_at", "2022-05-18 13:16:13.105570"]]
+  [1m[36mTRANSACTION (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:16:23.860575"], ["updated_at", "2022-05-18 13:16:23.860575"]]
+  [1m[36mTRANSACTION (22.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "farooq"], ["last_name", "ahmad"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-18 13:17:13.540083"], ["updated_at", "2022-05-18 13:17:13.540083"]]
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/users" for ::1 at 2022-05-23 09:22:19 +0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 41175)
+Completed 200 OK in 37ms (Views: 29.4ms | ActiveRecord: 0.4ms | Allocations: 49010)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:22:22 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 168.1ms | Allocations: 345700)
+  Rendered users/new.html.erb within layouts/application (Duration: 170.0ms | Allocations: 346006)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 172.5ms | Allocations: 348212)
+Completed 200 OK in 174ms (Views: 173.1ms | ActiveRecord: 0.0ms | Allocations: 348553)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:22:30 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:22:30.923515"], ["updated_at", "2022-05-23 04:22:30.923515"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1120
+Completed 302 Found in 20ms (ActiveRecord: 4.8ms | Allocations: 29395)
+
+
+Started GET "/users.1120" for ::1 at 2022-05-23 09:22:30 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1669)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4272)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 5134)
+
+
+Started GET "/users.1120" for ::1 at 2022-05-23 09:22:30 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 4017)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 4782)
+
+
+Started GET "/users.1120" for ::1 at 2022-05-23 09:25:05 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1662)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 4002)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 4783)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:25:07 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 602)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 695)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2871)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3141)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:25:15 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:25:15.005287"], ["updated_at", "2022-05-23 04:25:15.005287"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+UserMailer#welcome_mail: processed outbound mail in 0.1ms
+Redirected to http://localhost:3000/users.1121
+Completed 302 Found in 7ms (ActiveRecord: 3.8ms | Allocations: 2648)
+
+
+Started GET "/users.1121" for ::1 at 2022-05-23 09:25:15 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 4081)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4845)
+
+
+Started GET "/users.1121" for ::1 at 2022-05-23 09:25:15 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1661)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3985)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 4749)
+
+
+Started GET "/users" for ::1 at 2022-05-23 09:28:32 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 41411)
+Completed 200 OK in 32ms (Views: 26.2ms | ActiveRecord: 0.4ms | Allocations: 49245)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:28:34 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 143.9ms | Allocations: 345710)
+  Rendered users/new.html.erb within layouts/application (Duration: 144.5ms | Allocations: 346016)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 147.0ms | Allocations: 348222)
+Completed 200 OK in 148ms (Views: 147.3ms | ActiveRecord: 0.0ms | Allocations: 348563)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:28:41 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:28:41.032034"], ["updated_at", "2022-05-23 04:28:41.032034"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 4.8ms | Allocations: 4082)
+  Rendered layout layouts/mailer.html.erb (Duration: 4.9ms | Allocations: 4157)
+UserMailer#welcome_mail: processed outbound mail in 5.9ms
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 5.3ms | Allocations: 35051)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007f04e8069868>):
+    1: <h1>Welcome to example.com, <%= @user.name %></h1>
+    2:     <p>
+    3:       You have successfully signed up to example.com,
+    4:       your email is: <%= @user.email %>.<br>
+  
+app/views/user_mailer/welcome_mail.html.erb:1
+app/mailers/user_mailer.rb:8:in `welcome_mail'
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users" for ::1 at 2022-05-23 09:30:10 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2031)
+  Rendered users/_header.html.erb (Duration: 0.3ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 4915)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 6335)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:30:12 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 980)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1280)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3468)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3790)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:30:18 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:30:18.060176"], ["updated_at", "2022-05-23 04:30:18.060176"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.2ms | Allocations: 176)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.7ms | Allocations: 404)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 3.7ms | Allocations: 3326)
+  Rendered layout layouts/mailer.text.erb (Duration: 3.8ms | Allocations: 3396)
+UserMailer#welcome_mail: processed outbound mail in 5.9ms
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 3.8ms | Allocations: 8115)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007f04e9b68380>):
+    1: Welcome to example.com, <%= @user.name %>
+    2: ===============================================
+    3: 
+    4: You have successfully signed up to example.com,
+  
+app/views/user_mailer/welcome_mail.text.erb:1
+app/mailers/user_mailer.rb:8:in `welcome_mail'
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users" for ::1 at 2022-05-23 09:30:33 +0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2032)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4936)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.2ms | Allocations: 6373)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:30:34 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 970)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1271)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3461)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3791)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:30:40 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:30:40.379223"], ["updated_at", "2022-05-23 04:30:40.379223"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (10.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.2ms | Allocations: 176)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 401)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.2ms | Allocations: 166)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.6ms | Allocations: 357)
+UserMailer#welcome_mail: processed outbound mail in 9.6ms
+Delivered mail 628b0df062d1d_1db2378c728f5@dev-Inspiron-15-5510.mail (6133.0ms)
+Date: Mon, 23 May 2022 09:30:40 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b0df062d1d_1db2378c728f5@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b0df061f31_1db2378c727d5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b0df061f31_1db2378c727d5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b0df061f31_1db2378c727d5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b0df061f31_1db2378c727d5--
+
+Completed 500 Internal Server Error in 6160ms (ActiveRecord: 10.5ms | Allocations: 20920)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users" for ::1 at 2022-05-23 09:31:43 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 41366)
+Completed 200 OK in 35ms (Views: 29.3ms | ActiveRecord: 0.7ms | Allocations: 49200)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:31:44 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 136.4ms | Allocations: 345700)
+  Rendered users/new.html.erb within layouts/application (Duration: 137.1ms | Allocations: 346006)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 139.7ms | Allocations: 348212)
+Completed 200 OK in 141ms (Views: 140.1ms | ActiveRecord: 0.0ms | Allocations: 348553)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:31:51 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:31:51.058795"], ["updated_at", "2022-05-23 04:31:51.058795"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+[ActiveJob] Enqueued ActionMailer::MailDeliveryJob (Job ID: 4f6bbbc6-6ced-4ce0-b767-9dd5417f1946) to Async(default) with arguments: "UserMailer", "welcome_mail", "deliver_now", {:params=>{:user=>#<GlobalID:0x00007f55581c5930 @uri=#<URI::GID gid://crud-app/User/1125>>}, :args=>[]}
+Redirected to http://localhost:3000/users.1125
+Completed 302 Found in 18ms (ActiveRecord: 3.8ms | Allocations: 29466)
+
+
+Started GET "/users.1125" for ::1 at 2022-05-23 09:31:51 +0500
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1125], ["LIMIT", 1]]
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946] Performing ActionMailer::MailDeliveryJob (Job ID: 4f6bbbc6-6ced-4ce0-b767-9dd5417f1946) from Async(default) enqueued at 2022-05-23T04:31:51Z with arguments: "UserMailer", "welcome_mail", "deliver_now", {:params=>{:user=>#<GlobalID:0x00007f551c05ebc8 @uri=#<URI::GID gid://crud-app/User/1125>>}, :args=>[]}
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendering layout layouts/mailer.html.erb
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.3ms | Allocations: 193)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendered layout layouts/mailer.html.erb (Duration: 0.6ms | Allocations: 454)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendering layout layouts/mailer.text.erb
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.2ms | Allocations: 193)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946]   Rendered layout layouts/mailer.text.erb (Duration: 0.5ms | Allocations: 432)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946] UserMailer#welcome_mail: processed outbound mail in 3.9ms
+Processing by UsersController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1684)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 4291)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 5571)
+
+
+Started GET "/users.1125" for ::1 at 2022-05-23 09:31:51 +0500
+Processing by UsersController#index as */*
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1674)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4020)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.1ms | Allocations: 4786)
+
+
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946] Delivered mail 628b0e371601d_1eb56180949a8@dev-Inspiron-15-5510.mail (620.0ms)
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946] Date: Mon, 23 May 2022 09:31:51 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b0e371601d_1eb56180949a8@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b0e3715a1a_1eb5618094845";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b0e3715a1a_1eb5618094845
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b0e3715a1a_1eb5618094845
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b0e3715a1a_1eb5618094845--
+
+[ActiveJob] [ActionMailer::MailDeliveryJob] [4f6bbbc6-6ced-4ce0-b767-9dd5417f1946] Error performing ActionMailer::MailDeliveryJob (Job ID: 4f6bbbc6-6ced-4ce0-b767-9dd5417f1946) from Async(default) in 629.65ms: EOFError (end of file reached):
+/var/lib/gems/2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:227:in `rbuf_fill'
+/var/lib/gems/2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:193:in `readuntil'
+/var/lib/gems/2.7.0/gems/net-protocol-0.1.3/lib/net/protocol.rb:203:in `readline'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:1040:in `recv_response'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:1025:in `block in getok'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:1050:in `critical'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:1023:in `getok'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:918:in `helo'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:686:in `do_helo'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:643:in `do_start'
+/var/lib/gems/2.7.0/gems/net-smtp-0.3.1/lib/net/smtp.rb:604:in `start'
+/var/lib/gems/2.7.0/gems/mail-2.7.1/lib/mail/network/delivery_methods/smtp.rb:109:in `start_smtp_session'
+/var/lib/gems/2.7.0/gems/mail-2.7.1/lib/mail/network/delivery_methods/smtp.rb:100:in `deliver!'
+/var/lib/gems/2.7.0/gems/mail-2.7.1/lib/mail/message.rb:2159:in `do_delivery'
+/var/lib/gems/2.7.0/gems/mail-2.7.1/lib/mail/message.rb:260:in `block in deliver'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/base.rb:565:in `block in deliver_mail'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/base.rb:563:in `deliver_mail'
+/var/lib/gems/2.7.0/gems/mail-2.7.1/lib/mail/message.rb:260:in `deliver'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/message_delivery.rb:119:in `block in deliver_now'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/rescuable.rb:17:in `handle_exceptions'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/message_delivery.rb:118:in `deliver_now'
+/var/lib/gems/2.7.0/gems/actionmailer-7.0.2.3/lib/action_mailer/mail_delivery_job.rb:23:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:328:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:24:in `block in execute'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/railtie.rb:54:in `block (4 levels) in <class:Railtie>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/reloader.rb:72:in `block in wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/reloader.rb:71:in `wrap'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/railtie.rb:53:in `block (3 levels) in <class:Railtie>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:22:in `execute'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/users/new" for ::1 at 2022-05-23 09:32:26 +0500
+Processing by UsersController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:27:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 625)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 719)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 14106)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.5ms | Allocations: 18064)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:32:31 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:32:31.944024"], ["updated_at", "2022-05-23 04:32:31.944024"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (14.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.1ms | Allocations: 108)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.4ms
+Delivered mail 628b0e5febc3f_1eb5378c951ca@dev-Inspiron-15-5510.mail (6280.8ms)
+Date: Mon, 23 May 2022 09:32:31 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b0e5febc3f_1eb5378c951ca@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b0e5feb277_1eb5378c95013";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b0e5feb277_1eb5378c95013
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b0e5feb277_1eb5378c95013
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b0e5feb277_1eb5378c95013--
+
+Completed 500 Internal Server Error in 6303ms (ActiveRecord: 14.7ms | Allocations: 16061)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 09:37:23 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 614)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 707)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2894)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3160)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:37:29 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:37:29.462955"], ["updated_at", "2022-05-23 04:37:29.462955"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (7.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.2ms | Allocations: 107)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.3ms
+Delivered mail 628b0f8974017_1eb53778953d9@dev-Inspiron-15-5510.mail (739.4ms)
+Date: Mon, 23 May 2022 09:37:29 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b0f8974017_1eb53778953d9@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b0f8973a25_1eb5377895220";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b0f8973a25_1eb5377895220
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b0f8973a25_1eb5377895220
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b0f8973a25_1eb5377895220--
+
+Completed 500 Internal Server Error in 753ms (ActiveRecord: 7.6ms | Allocations: 13096)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 09:38:18 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 600)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 693)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2884)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3150)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:38:25 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:38:25.362469"], ["updated_at", "2022-05-23 04:38:25.362469"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.1ms
+Delivered mail 628b0fc15a71c_1eb537c8955f0@dev-Inspiron-15-5510.mail (1732.7ms)
+Date: Mon, 23 May 2022 09:38:25 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b0fc15a71c_1eb537c8955f0@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b0fc15a170_1eb537c8954e2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b0fc15a170_1eb537c8954e2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b0fc15a170_1eb537c8954e2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b0fc15a170_1eb537c8954e2--
+
+Completed 500 Internal Server Error in 1742ms (ActiveRecord: 3.8ms | Allocations: 13116)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 09:44:54 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 614)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 707)
+  Rendered users/_header.html.erb (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2899)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3165)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:45:15 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:45:15.262823"], ["updated_at", "2022-05-23 04:45:15.262823"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 4.4ms
+Delivered mail 628b115b4316e_1eb537a095738@dev-Inspiron-15-5510.mail (1645.8ms)
+Date: Mon, 23 May 2022 09:45:15 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b115b4316e_1eb537a095738@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b115b424b7_1eb537a09569d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b115b424b7_1eb537a09569d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b115b424b7_1eb537a09569d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://muhammad-farooq-dev.github.io/farooq.github.io/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b115b424b7_1eb537a09569d--
+
+Completed 500 Internal Server Error in 1660ms (ActiveRecord: 4.1ms | Allocations: 13601)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users" for ::1 at 2022-05-23 09:48:14 +0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 41341)
+Completed 200 OK in 32ms (Views: 26.4ms | ActiveRecord: 0.4ms | Allocations: 49174)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 09:48:15 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 145.4ms | Allocations: 345702)
+  Rendered users/new.html.erb within layouts/application (Duration: 146.0ms | Allocations: 346008)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 148.5ms | Allocations: 348214)
+Completed 200 OK in 149ms (Views: 148.9ms | ActiveRecord: 0.0ms | Allocations: 348555)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:48:21 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:48:21.372315"], ["updated_at", "2022-05-23 04:48:21.372315"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.2ms | Allocations: 187)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.5ms | Allocations: 416)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.3ms | Allocations: 361)
+UserMailer#welcome_mail: processed outbound mail in 3.4ms
+Delivered mail 628b12155f6dd_23ad37c8-3f7@dev-Inspiron-15-5510.mail (5503.4ms)
+Date: Mon, 23 May 2022 09:48:21 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b12155f6dd_23ad37c8-3f7@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b12155f005_23ad37c8-4fc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b12155f005_23ad37c8-4fc
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: .
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b12155f005_23ad37c8-4fc
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: .
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b12155f005_23ad37c8-4fc--
+
+Completed 500 Internal Server Error in 5522ms (ActiveRecord: 3.9ms | Allocations: 41860)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 09:48:56 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 622)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 716)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2919)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 3186)
+
+
+Started POST "/users" for ::1 at 2022-05-23 09:49:01 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 04:49:01.547970"], ["updated_at", "2022-05-23 04:49:01.547970"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.2ms | Allocations: 106)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.1ms
+Delivered mail 628b123d8a743_23ad37b4-182@dev-Inspiron-15-5510.mail (584.9ms)
+Date: Mon, 23 May 2022 09:49:01 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b123d8a743_23ad37b4-182@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b123d8a23e_23ad37b4-2dc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b123d8a23e_23ad37b4-2dc
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: .
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b123d8a23e_23ad37b4-2dc
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: .
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b123d8a23e_23ad37b4-2dc--
+
+Completed 500 Internal Server Error in 605ms (ActiveRecord: 14.8ms | Allocations: 13111)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users" for ::1 at 2022-05-23 16:47:50 +0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:17:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 6905)
+  Rendered users/_header.html.erb (Duration: 0.7ms | Allocations: 277)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 41178)
+Completed 200 OK in 41ms (Views: 32.3ms | ActiveRecord: 1.1ms | Allocations: 49011)
+
+
+Started GET "/users/new" for ::1 at 2022-05-23 16:48:04 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 162.8ms | Allocations: 352075)
+  Rendered users/new.html.erb within layouts/application (Duration: 163.6ms | Allocations: 352381)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 80)
+  Rendered layout layouts/application.html.erb (Duration: 166.2ms | Allocations: 354587)
+Completed 200 OK in 167ms (Views: 166.4ms | ActiveRecord: 0.0ms | Allocations: 354928)
+
+
+Started POST "/users" for ::1 at 2022-05-23 16:48:27 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Muhammad", "last_name"=>"Farooq", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Muhammad"], ["last_name", "Farooq"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 11:48:27.766822"], ["updated_at", "2022-05-23 11:48:27.766822"]]
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:38:in `block in create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.4ms | Allocations: 187)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.8ms | Allocations: 416)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.6ms | Allocations: 361)
+UserMailer#welcome_mail: processed outbound mail in 5.0ms
+Delivered mail 628b748bc16ba_235937c8-339@dev-Inspiron-15-5510.mail (487.2ms)
+Date: Mon, 23 May 2022 16:48:27 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b748bc16ba_235937c8-339@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b748bc0cf6_235937c8-453";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b748bc0cf6_235937c8-453
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, Muhammad
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: .
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b748bc0cf6_235937c8-453
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, Muhammad</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: .
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b748bc0cf6_235937c8-453--
+
+Completed 500 Internal Server Error in 513ms (ActiveRecord: 4.1ms | Allocations: 41822)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:39:in `block in create'
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 16:51:37 +0500
+Processing by UsersController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:27:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 637)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 731)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 14125)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.4ms | Allocations: 18077)
+
+
+Started POST "/users" for ::1 at 2022-05-23 16:51:43 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"fewljfw", "last_name"=>"kfmsfwe", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "fewljfw"], ["last_name", "kfmsfwe"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 11:51:43.020699"], ["updated_at", "2022-05-23 11:51:43.020699"]]
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.2ms
+Delivered mail 628b754f7c01_235937b4-1ba@dev-Inspiron-15-5510.mail (517.7ms)
+Date: Mon, 23 May 2022 16:51:43 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b754f7c01_235937b4-1ba@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b754f76ee_235937b4-28d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b754f76ee_235937b4-28d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, fewljfw
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: .
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b754f76ee_235937b4-28d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, fewljfw</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: .
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b754f76ee_235937b4-28d--
+
+Completed 500 Internal Server Error in 531ms (ActiveRecord: 4.3ms | Allocations: 15856)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 16:54:18 +0500
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 600)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 693)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2884)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3151)
+
+
+Started POST "/users" for ::1 at 2022-05-23 16:54:24 +0500
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"fewf", "last_name"=>"feewf", "email"=>"farooqawaisi6310@gmail.com"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "fewf"], ["last_name", "feewf"], ["email", "farooqawaisi6310@gmail.com"], ["created_at", "2022-05-23 11:54:24.838001"], ["updated_at", "2022-05-23 11:54:24.838001"]]
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  [1m[36mTRANSACTION (16.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:36:in `create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.html.erb within layouts/mailer (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/mailer.html.erb (Duration: 0.1ms | Allocations: 106)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_mail.text.erb within layouts/mailer (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.1ms | Allocations: 95)
+UserMailer#welcome_mail: processed outbound mail in 2.1ms
+Delivered mail 628b75f0d1962_235937a019d@dev-Inspiron-15-5510.mail (636.9ms)
+Date: Mon, 23 May 2022 16:54:24 +0500
+From: notifications@example.com
+To: farooqawaisi6310@gmail.com
+Message-ID: <628b75f0d1962_235937a019d@dev-Inspiron-15-5510.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_628b75f0d13e4_235937a0062";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_628b75f0d13e4_235937a0062
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, fewf
+===============================================
+
+You have successfully signed up to example.com,
+your email is: farooqawaisi6310@gmail.com.
+
+To login to the site, just follow this link: .
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_628b75f0d13e4_235937a0062
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to example.com, fewf</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your email is: farooqawaisi6310@gmail.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: .
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+
+  </body>
+</html>
+
+----==_mimepart_628b75f0d13e4_235937a0062--
+
+Completed 500 Internal Server Error in 658ms (ActiveRecord: 16.2ms | Allocations: 12945)
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/users_controller.rb:37:in `create'
+Started GET "/users/new" for ::1 at 2022-05-23 16:55:23 +0500
+Processing by UsersController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/users_controller.rb:27:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 617)
+  Rendered users/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 711)
+  Rendered users/_header.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 14107)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 18038)
+
+
+[ActiveJob] [TestJob] [25c318a1-bf61-46de-a6f5-9f542b271152] Performing TestJob (Job ID: 25c318a1-bf61-46de-a6f5-9f542b271152) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [25c318a1-bf61-46de-a6f5-9f542b271152] Error performing TestJob (Job ID: 25c318a1-bf61-46de-a6f5-9f542b271152) from Async(default) in 20.97ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):1:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [9adcc5ee-2e93-4a65-98d2-f32252153b80] Performing TestJob (Job ID: 9adcc5ee-2e93-4a65-98d2-f32252153b80) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [9adcc5ee-2e93-4a65-98d2-f32252153b80] Error performing TestJob (Job ID: 9adcc5ee-2e93-4a65-98d2-f32252153b80) from Async(default) in 0.75ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):2:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] Enqueued TestJob (Job ID: 55d289e4-fecb-4724-9eed-0d85c7e5f146) to Async(default)
+[ActiveJob] [TestJob] [55d289e4-fecb-4724-9eed-0d85c7e5f146] Performing TestJob (Job ID: 55d289e4-fecb-4724-9eed-0d85c7e5f146) from Async(default) enqueued at 2022-05-24T13:18:20Z
+[ActiveJob] [TestJob] [55d289e4-fecb-4724-9eed-0d85c7e5f146] Error performing TestJob (Job ID: 55d289e4-fecb-4724-9eed-0d85c7e5f146) from Async(default) in 139.79ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:328:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:24:in `block in execute'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/railtie.rb:54:in `block (4 levels) in <class:Railtie>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/reloader.rb:72:in `block in wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/reloader.rb:71:in `wrap'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/railtie.rb:53:in `block (3 levels) in <class:Railtie>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:22:in `execute'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/queue_adapters/async_adapter.rb:70:in `perform'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+/var/lib/gems/2.7.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+[ActiveJob] [TestJob] [589f7276-bd45-40ca-82f4-38b0ce1f2047] Performing TestJob (Job ID: 589f7276-bd45-40ca-82f4-38b0ce1f2047) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [589f7276-bd45-40ca-82f4-38b0ce1f2047] Error performing TestJob (Job ID: 589f7276-bd45-40ca-82f4-38b0ce1f2047) from Async(default) in 0.6ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):4:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [ce8c07af-b565-4321-a260-cbd5227f7d02] Performing TestJob (Job ID: ce8c07af-b565-4321-a260-cbd5227f7d02) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [ce8c07af-b565-4321-a260-cbd5227f7d02] Error performing TestJob (Job ID: ce8c07af-b565-4321-a260-cbd5227f7d02) from Async(default) in 0.68ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):5:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [612b8032-0787-45a6-9ae6-a423fac04496] Performing TestJob (Job ID: 612b8032-0787-45a6-9ae6-a423fac04496) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [612b8032-0787-45a6-9ae6-a423fac04496] Error performing TestJob (Job ID: 612b8032-0787-45a6-9ae6-a423fac04496) from Async(default) in 0.71ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):6:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [c0919d29-f65c-4bbd-a48d-b9c84eb26da2] Performing TestJob (Job ID: c0919d29-f65c-4bbd-a48d-b9c84eb26da2) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [c0919d29-f65c-4bbd-a48d-b9c84eb26da2] Error performing TestJob (Job ID: c0919d29-f65c-4bbd-a48d-b9c84eb26da2) from Async(default) in 0.75ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):22:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [7fa92ff7-9b75-4625-80ca-e0ff587ddc8c] Performing TestJob (Job ID: 7fa92ff7-9b75-4625-80ca-e0ff587ddc8c) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [7fa92ff7-9b75-4625-80ca-e0ff587ddc8c] Error performing TestJob (Job ID: 7fa92ff7-9b75-4625-80ca-e0ff587ddc8c) from Async(default) in 0.42ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):24:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [355f398d-aa0b-4fae-9a98-b9f340ea6e97] Performing TestJob (Job ID: 355f398d-aa0b-4fae-9a98-b9f340ea6e97) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [355f398d-aa0b-4fae-9a98-b9f340ea6e97] Error performing TestJob (Job ID: 355f398d-aa0b-4fae-9a98-b9f340ea6e97) from Async(default) in 0.28ms: RuntimeError (test error):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):25:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [39063b4a-dbc1-4367-b3f7-5b39b352c68d] Performing TestJob (Job ID: 39063b4a-dbc1-4367-b3f7-5b39b352c68d) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [39063b4a-dbc1-4367-b3f7-5b39b352c68d] Performed TestJob (Job ID: 39063b4a-dbc1-4367-b3f7-5b39b352c68d) from Async(default) in 0.16ms
+[ActiveJob] [TestJob] [ad851422-7bda-4072-8e07-e64adf2316de] Performing TestJob (Job ID: ad851422-7bda-4072-8e07-e64adf2316de) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [ad851422-7bda-4072-8e07-e64adf2316de] Performed TestJob (Job ID: ad851422-7bda-4072-8e07-e64adf2316de) from Async(default) in 0.49ms
+[ActiveJob] [TestJob] [cb86357b-742c-41c7-b6d2-99f3f32c5173] Performing TestJob (Job ID: cb86357b-742c-41c7-b6d2-99f3f32c5173) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [cb86357b-742c-41c7-b6d2-99f3f32c5173] Performed TestJob (Job ID: cb86357b-742c-41c7-b6d2-99f3f32c5173) from Async(default) in 0.47ms
+[ActiveJob] [TestJob] [0b5d96b6-63d3-4920-bb9e-582ee5cb2fb0] Performing TestJob (Job ID: 0b5d96b6-63d3-4920-bb9e-582ee5cb2fb0) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [0b5d96b6-63d3-4920-bb9e-582ee5cb2fb0] Performed TestJob (Job ID: 0b5d96b6-63d3-4920-bb9e-582ee5cb2fb0) from Async(default) in 0.45ms
+[ActiveJob] [TestJob] [47e367c2-b171-462f-b459-59c548bd075c] Performing TestJob (Job ID: 47e367c2-b171-462f-b459-59c548bd075c) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [47e367c2-b171-462f-b459-59c548bd075c] Performed TestJob (Job ID: 47e367c2-b171-462f-b459-59c548bd075c) from Async(default) in 0.47ms
+[ActiveJob] [TestJob] [cead0f17-6a6f-47bb-be51-b8ab44d47fd3] Performing TestJob (Job ID: cead0f17-6a6f-47bb-be51-b8ab44d47fd3) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [cead0f17-6a6f-47bb-be51-b8ab44d47fd3] Performed TestJob (Job ID: cead0f17-6a6f-47bb-be51-b8ab44d47fd3) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [c0bafc77-6d94-4f78-8843-ffcaf1cd51f8] Performing TestJob (Job ID: c0bafc77-6d94-4f78-8843-ffcaf1cd51f8) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [c0bafc77-6d94-4f78-8843-ffcaf1cd51f8] Performed TestJob (Job ID: c0bafc77-6d94-4f78-8843-ffcaf1cd51f8) from Async(default) in 0.41ms
+[ActiveJob] [TestJob] [4b2e4389-698d-4141-bc17-93f4b63c547a] Performing TestJob (Job ID: 4b2e4389-698d-4141-bc17-93f4b63c547a) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [4b2e4389-698d-4141-bc17-93f4b63c547a] Performed TestJob (Job ID: 4b2e4389-698d-4141-bc17-93f4b63c547a) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [e550ebbf-9862-4478-867c-0c25615d8db4] Performing TestJob (Job ID: e550ebbf-9862-4478-867c-0c25615d8db4) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [e550ebbf-9862-4478-867c-0c25615d8db4] Performed TestJob (Job ID: e550ebbf-9862-4478-867c-0c25615d8db4) from Async(default) in 0.42ms
+[ActiveJob] [TestJob] [14cdde22-515d-45ed-97d9-89970bc653dd] Performing TestJob (Job ID: 14cdde22-515d-45ed-97d9-89970bc653dd) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [14cdde22-515d-45ed-97d9-89970bc653dd] Performed TestJob (Job ID: 14cdde22-515d-45ed-97d9-89970bc653dd) from Async(default) in 0.48ms
+[ActiveJob] [TestJob] [770106f7-554a-417a-b18b-c796a2facdcf] Performing TestJob (Job ID: 770106f7-554a-417a-b18b-c796a2facdcf) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [770106f7-554a-417a-b18b-c796a2facdcf] Performed TestJob (Job ID: 770106f7-554a-417a-b18b-c796a2facdcf) from Async(default) in 0.45ms
+[ActiveJob] [TestJob] [56c24f37-a3c9-435a-b689-3df02efcbf5a] Performing TestJob (Job ID: 56c24f37-a3c9-435a-b689-3df02efcbf5a) from Async(default) enqueued at  with arguments: {:user_id=>1}
+[ActiveJob] [TestJob] [56c24f37-a3c9-435a-b689-3df02efcbf5a] Performed TestJob (Job ID: 56c24f37-a3c9-435a-b689-3df02efcbf5a) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [38382ba2-ad83-4a9b-9f8c-ffa159233bf4] Performing TestJob (Job ID: 38382ba2-ad83-4a9b-9f8c-ffa159233bf4) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [38382ba2-ad83-4a9b-9f8c-ffa159233bf4] Performed TestJob (Job ID: 38382ba2-ad83-4a9b-9f8c-ffa159233bf4) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [3f7e3b19-4ec6-409d-8349-610dac619157] Performing TestJob (Job ID: 3f7e3b19-4ec6-409d-8349-610dac619157) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [3f7e3b19-4ec6-409d-8349-610dac619157] Performed TestJob (Job ID: 3f7e3b19-4ec6-409d-8349-610dac619157) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [93ef3f29-0aab-450d-a1ad-efd05ab1f59d] Performing TestJob (Job ID: 93ef3f29-0aab-450d-a1ad-efd05ab1f59d) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [93ef3f29-0aab-450d-a1ad-efd05ab1f59d] Performed TestJob (Job ID: 93ef3f29-0aab-450d-a1ad-efd05ab1f59d) from Async(default) in 0.42ms
+[ActiveJob] [TestJob] [8deefed4-651e-4fc2-a07b-05f0ae9edc84] Performing TestJob (Job ID: 8deefed4-651e-4fc2-a07b-05f0ae9edc84) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [8deefed4-651e-4fc2-a07b-05f0ae9edc84] Performed TestJob (Job ID: 8deefed4-651e-4fc2-a07b-05f0ae9edc84) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [fc87f3ab-11d4-4319-acb7-d76072f21989] Performing TestJob (Job ID: fc87f3ab-11d4-4319-acb7-d76072f21989) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [fc87f3ab-11d4-4319-acb7-d76072f21989] Error performing TestJob (Job ID: fc87f3ab-11d4-4319-acb7-d76072f21989) from Async(default) in 0.66ms: RuntimeError (Hell):
+/home/dev/Documents/crud/app/jobs/test_job.rb:6:in `perform'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:59:in `block in _perform_job'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/i18n-1.10.0/lib/i18n.rb:323:in `with_locale'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/core_ext/time/zones.rb:66:in `use_zone'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `instance_exec'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/callbacks.rb:138:in `run_callbacks'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:58:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:20:in `_perform_job'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:46:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:25:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `block in instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/notifications.rb:206:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:35:in `instrument'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/instrumentation.rb:14:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `block in perform_now'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:37:in `tagged'
+/var/lib/gems/2.7.0/gems/activesupport-7.0.2.3/lib/active_support/tagged_logging.rb:99:in `tagged'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:25:in `tag_logger'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/logging.rb:18:in `perform_now'
+/var/lib/gems/2.7.0/gems/activejob-7.0.2.3/lib/active_job/execution.rb:18:in `perform_now'
+(irb):59:in `<main>'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `eval'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/workspace.rb:119:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/context.rb:476:in `evaluate'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:577:in `block (2 levels) in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:770:in `signal_status'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:558:in `block in eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:268:in `block (2 levels) in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `loop'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:250:in `block in each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb/ruby-lex.rb:249:in `each_top_level_statement'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:557:in `eval_input'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:491:in `block in run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `catch'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:490:in `run'
+/var/lib/gems/2.7.0/gems/irb-1.4.1/lib/irb.rb:419:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:70:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:19:in `start'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands/console/console_command.rb:102:in `perform'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+/var/lib/gems/2.7.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command/base.rb:87:in `perform'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/command.rb:48:in `invoke'
+/var/lib/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/commands.rb:18:in `<main>'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+/var/lib/gems/2.7.0/gems/bootsnap-1.11.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+bin/rails:4:in `<main>'
+[ActiveJob] [TestJob] [d9182aca-c69e-4a24-8670-5d3e4b6b7257] Performing TestJob (Job ID: d9182aca-c69e-4a24-8670-5d3e4b6b7257) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [d9182aca-c69e-4a24-8670-5d3e4b6b7257] Performed TestJob (Job ID: d9182aca-c69e-4a24-8670-5d3e4b6b7257) from Async(default) in 0.48ms
+[ActiveJob] Enqueued TestJob (Job ID: acc94e07-0e3f-4e30-b844-59abf852a5e1) to Async(default)
+[ActiveJob] [TestJob] [acc94e07-0e3f-4e30-b844-59abf852a5e1] Performing TestJob (Job ID: acc94e07-0e3f-4e30-b844-59abf852a5e1) from Async(default) enqueued at 2022-05-24T13:37:22Z
+[ActiveJob] [TestJob] [acc94e07-0e3f-4e30-b844-59abf852a5e1] Performed TestJob (Job ID: acc94e07-0e3f-4e30-b844-59abf852a5e1) from Async(default) in 0.33ms
+[ActiveJob] [TestJob] [d818ea54-bce7-41a6-9c81-5421cc53e9e9] Performing TestJob (Job ID: d818ea54-bce7-41a6-9c81-5421cc53e9e9) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [d818ea54-bce7-41a6-9c81-5421cc53e9e9] Performed TestJob (Job ID: d818ea54-bce7-41a6-9c81-5421cc53e9e9) from Async(default) in 0.44ms
+[ActiveJob] [TestJob] [eca150ce-4ffc-460e-a3f7-880f5e624f5c] Performing TestJob (Job ID: eca150ce-4ffc-460e-a3f7-880f5e624f5c) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [eca150ce-4ffc-460e-a3f7-880f5e624f5c] Performed TestJob (Job ID: eca150ce-4ffc-460e-a3f7-880f5e624f5c) from Async(default) in 0.44ms
+[ActiveJob] Enqueued TestJob (Job ID: 7cac312c-83c6-4ec6-965c-2c911834681c) to Async(default)
+[ActiveJob] [TestJob] [7cac312c-83c6-4ec6-965c-2c911834681c] Performing TestJob (Job ID: 7cac312c-83c6-4ec6-965c-2c911834681c) from Async(default) enqueued at 2022-05-24T13:55:40Z
+[ActiveJob] [TestJob] [7cac312c-83c6-4ec6-965c-2c911834681c] Performed TestJob (Job ID: 7cac312c-83c6-4ec6-965c-2c911834681c) from Async(default) in 0.14ms
+[ActiveJob] [TestJob] [5a257ca2-afe3-49d4-96e3-e3fe2b531916] Performing TestJob (Job ID: 5a257ca2-afe3-49d4-96e3-e3fe2b531916) from Sidekiq(default) enqueued at 
+[ActiveJob] [TestJob] [5a257ca2-afe3-49d4-96e3-e3fe2b531916] Performed TestJob (Job ID: 5a257ca2-afe3-49d4-96e3-e3fe2b531916) from Sidekiq(default) in 0.57ms
+[ActiveJob] [TestJob] [ab4238dd-449f-49b0-9e7d-68b7bfbd6012] Performing TestJob (Job ID: ab4238dd-449f-49b0-9e7d-68b7bfbd6012) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [ab4238dd-449f-49b0-9e7d-68b7bfbd6012] Performed TestJob (Job ID: ab4238dd-449f-49b0-9e7d-68b7bfbd6012) from Async(default) in 0.4ms
+[ActiveJob] [TestJob] [1abed186-6f32-4f5b-bd99-fa8a6a74a2be] Performing TestJob (Job ID: 1abed186-6f32-4f5b-bd99-fa8a6a74a2be) from Async(default) enqueued at 
+[ActiveJob] [TestJob] [1abed186-6f32-4f5b-bd99-fa8a6a74a2be] Performed TestJob (Job ID: 1abed186-6f32-4f5b-bd99-fa8a6a74a2be) from Async(default) in 0.42ms
+[ActiveJob] Enqueued TestJob (Job ID: c1c93c2a-d36d-46d7-a987-4173736d6aa0) to Async(default) at 2022-05-24 14:02:34 UTC
+[ActiveJob] [TestJob] [c1c93c2a-d36d-46d7-a987-4173736d6aa0] Performing TestJob (Job ID: c1c93c2a-d36d-46d7-a987-4173736d6aa0) from Async(default) enqueued at 2022-05-24T14:00:34Z
+[ActiveJob] [TestJob] [c1c93c2a-d36d-46d7-a987-4173736d6aa0] Performed TestJob (Job ID: c1c93c2a-d36d-46d7-a987-4173736d6aa0) from Async(default) in 0.16ms

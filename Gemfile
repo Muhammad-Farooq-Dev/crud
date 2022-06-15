@@ -46,6 +46,9 @@ gem "bootsnap", require: false
 
 gem 'faker'
 
+gem 'pagy', '~> 5.10'
+
+gem 'sidekiq'
 
 # Use Sass to process CSS
 # gem "sassc-rails"

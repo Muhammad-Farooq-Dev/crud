@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.all
+    @pagy, @users = pagy(User.all)
   end
 
   def show
@@ -33,12 +33,14 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-
-    respond_to do |format|
-      if @user.save
+    if @user.save
+      UserMailer.with(user: @user).welcome_mail.deliver_now
+      respond_to do |format|
         format.html { redirect_to users_url(@user), notice: "User was successfully created." }
-        format.json { render :show, status: :created, location: @user }
-      else
+        format.json { render :show, status: :created, location: @user }\
+      end
+    else
+      respond_to do |format|
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
